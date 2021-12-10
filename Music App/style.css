@@ -1,0 +1,12 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    font-size: 4rem;
+    margin-right: 1em;
+}

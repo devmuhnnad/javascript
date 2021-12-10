@@ -1,0 +1,43 @@
+body {
+  background-image: url(/background.jpg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-size: cover;
+}
+
+.container {
+  background-color: #eee;
+  width: 100%;
+  max-width: 600px;
+  padding: 2em;
+  border: solid 8px gainsboro;
+  text-align: center;
+  color: #333;
+}
+
+.container input {
+  width: 100%;
+  font-size: 2rem;
+}
+
+.container p {
+  font-size: 3rem;
+}
+
+.container button {
+    background-color: orangered;
+    color: white;
+    padding: .5em 1em;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1em;
+    border-radius: 20px;
+}
+
+.container button:hover {
+    background-color: orange;
+}
